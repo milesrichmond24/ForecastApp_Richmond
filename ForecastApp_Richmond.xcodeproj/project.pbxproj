@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC086C382B62BA1800730E07 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC086C372B62BA1800730E07 /* AppData.swift */; };
 		CCC3A2602B61638D006C2C93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3A25F2B61638D006C2C93 /* AppDelegate.swift */; };
 		CCC3A2622B61638D006C2C93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3A2612B61638D006C2C93 /* SceneDelegate.swift */; };
 		CCC3A2642B61638D006C2C93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3A2632B61638D006C2C93 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 		CCC3A2772B61638F006C2C93 /* ForecastApp_RichmondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3A2762B61638F006C2C93 /* ForecastApp_RichmondTests.swift */; };
 		CCC3A2812B61638F006C2C93 /* ForecastApp_RichmondUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3A2802B61638F006C2C93 /* ForecastApp_RichmondUITests.swift */; };
 		CCC3A2832B61638F006C2C93 /* ForecastApp_RichmondUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3A2822B61638F006C2C93 /* ForecastApp_RichmondUITestsLaunchTests.swift */; };
+		CCC3A2902B6168D1006C2C93 /* dayForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3A28F2B6168D1006C2C93 /* dayForecast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC086C372B62BA1800730E07 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 		CCC3A25C2B61638D006C2C93 /* ForecastApp_Richmond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForecastApp_Richmond.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC3A25F2B61638D006C2C93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC3A2612B61638D006C2C93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		CCC3A27C2B61638F006C2C93 /* ForecastApp_RichmondUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForecastApp_RichmondUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC3A2802B61638F006C2C93 /* ForecastApp_RichmondUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastApp_RichmondUITests.swift; sourceTree = "<group>"; };
 		CCC3A2822B61638F006C2C93 /* ForecastApp_RichmondUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastApp_RichmondUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCC3A28F2B6168D1006C2C93 /* dayForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayForecast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				CCC3A25F2B61638D006C2C93 /* AppDelegate.swift */,
 				CCC3A2612B61638D006C2C93 /* SceneDelegate.swift */,
 				CCC3A2632B61638D006C2C93 /* ViewController.swift */,
+				CCC3A28F2B6168D1006C2C93 /* dayForecast.swift */,
 				CCC3A2652B61638D006C2C93 /* Main.storyboard */,
+				CC086C372B62BA1800730E07 /* AppData.swift */,
 				CCC3A2682B61638F006C2C93 /* Assets.xcassets */,
 				CCC3A26A2B61638F006C2C93 /* LaunchScreen.storyboard */,
 				CCC3A26D2B61638F006C2C93 /* Info.plist */,
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCC3A2642B61638D006C2C93 /* ViewController.swift in Sources */,
+				CCC3A2902B6168D1006C2C93 /* dayForecast.swift in Sources */,
 				CCC3A2602B61638D006C2C93 /* AppDelegate.swift in Sources */,
 				CCC3A2622B61638D006C2C93 /* SceneDelegate.swift in Sources */,
+				CC086C382B62BA1800730E07 /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
